@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+
+
+background: #1A2980; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #1A2980 , #26D0CE); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1A2980 , #26D0CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.wrapper {
+  width: 1280px;
+  margin: 200px auto;
+}
+.profile {
+  background: white;
+  float: left;
+  width: 33%;
+  min-height: 410px;
+  margin-bottom: 1%;
+}
+.description {
+  background: #fff;
+  float: left;
+  width: 66%;
+  margin-left: 1%;
+  min-height: 410px;
+}
+.profile img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+section {
+  background: #fff;
+  clear: both;
+}
+section p {
+  margin: 0;
+}
+.profile, .description, section {
+  border-radius: 20px;
+  padding: 20px;
+}
