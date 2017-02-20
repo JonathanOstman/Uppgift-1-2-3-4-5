@@ -3,43 +3,44 @@
   box-sizing: border-box;
 }
 body {
-font-family: raleway;
-
+font-family: raleway, sans-serif;
+/*GRADIENT*/
 background: #DD5E89; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #DD5E89 , #F7BB97); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #DD5E89 , #F7BB97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
+
 .header {
   text-align: center;
-}
-table tr:last-child td:first-child {
-    border-bottom-left-radius: 5px;
+  color: #ecf0f1;
+  margin-top: 70px;
+  text-shadow: 0 0 1px 1px black;
+  text-shadow: 1.5px 1.5px black;
 }
 
-table tr:last-child td:last-child {
-    border-bottom-right-radius: 5px;
-}
-table tr:first-child th:first-child {
-    border-top-left-radius: 5px;
-}
-table tr:first-child th:last-child {
-    border-top-right-radius: 5px;
-}
 table {
   border-spacing: 0;
   width: 50%;
-  margin: 70px auto;
+  margin:30px auto 0 auto ;
+  max-width: 632px;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 7px 10px 17px -4px rgba(52, 73, 94, 0.4);
+  -moz-box-shadow: 7px 10px 17px -4px rgba(221,94,137,0.85);
+  box-shadow: 7px 10px 17px -4px rgba(52, 73, 94, 0.4);
 }
 td, th {
   text-align: left;
-  padding: 8px;
 }
-tr {
-  background: #ecf0f1;
+th {
+  color: #ecf0f1;
+  background: #34495e;
+  padding: 13px;
+
 }
 td {
-  background: #34495e;
-  color: #ecf0f1;
+  background: #ecf0f1;
   border-bottom: 0.4px solid #ccc;
+  padding: 7px 13px 7px 13px;
+  overflow: hidden;
 }
