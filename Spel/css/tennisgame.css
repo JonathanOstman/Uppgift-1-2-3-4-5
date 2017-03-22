@@ -1,7 +1,10 @@
 body {
   font-family: Roboto, sans-serif;
 }
-div {
+.wrapper {
+  width: 100%;
+}
+.score {
   float: right;
   background: black;
   text-align: center;
